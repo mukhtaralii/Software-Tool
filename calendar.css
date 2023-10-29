@@ -1,0 +1,33 @@
+.calendar {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.calendar-header {
+    background-color: #004fd7;
+    padding: 10px;
+}
+
+
+#month-year {
+    font-size: 20px;
+    color:aliceblue;
+    
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-day {
+    border: 3px solid #004fd7;
+    padding: 10px;
+    height: 60px;
+}
+body {
+    display: flex;
+    
+    align-items: center;
+}
